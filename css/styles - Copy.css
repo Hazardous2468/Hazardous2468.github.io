@@ -1,0 +1,74 @@
+:root {
+    background-attachment: fixed;
+    background-color: #000000FF;
+    background-image: url(../assets/bg_temp.png);
+    background-position: center center;
+    background-repeat: cover no-repeat;
+    background-size: 50% auto;
+    font-family: MS PGothic;
+    font-size: medium;
+}
+
+.main {
+  margin: 24px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #FFFF00FF;
+  font-family: MS PGothic;
+  font-size: medium;
+  border:2px solid #000000FF;
+}
+.temp_wip_image_ {
+  background-color: rgba(0, 0, 0, 0);
+  color: #0;
+}
+
+
+#temp_wip_image {
+    z-index: 1;
+    max-width: 700px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+
+#temp_secret_image_test {
+	width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+   max-width: 700px;
+  transform: translate(-50%, -50%);
+border:16px double #FF0000FF;
+filter: drop-shadow(30px 10px 4px #000000FF);
+}
+
+
+
+div#lH {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  z-index: 1;
+  font-size: 25px;
+  text-align:center;
+}
+audio#aH {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  z-index: 2;
+  opacity: 0.01;
+}
+
+
+
+        
+
+@font-face {
+    font-family: vcr;
+    src: url(../assets/fonts/vcr.ttf);
+}
