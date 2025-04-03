@@ -25,12 +25,13 @@
 
 
 #temp_wip_image {
-    z-index: 1;
-    max-width: 700px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 75%;
+	z-index: 0;
+	position: absolute;
+	left: 50%;
+	top: 60%;
+	transform: translate(-50%, -50%);
+	width: 25%;
+	filter: drop-shadow(30px 10px 4px #000000FF);
 }
 
 
@@ -47,24 +48,21 @@ filter: drop-shadow(30px 10px 4px #000000FF);
 
 
 
-div#lH {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  overflow: hidden;
-  z-index: 1;
-  font-size: 25px;
-  text-align:center;
-}
-audio#aH {
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  z-index: 2;
-  opacity: 0.01;
-}
 
-
+.main_placeholder {
+	vertical-align: middle;
+	z-index: 1;
+	display: inline-block;
+	left: 25%;
+	top: 50%;
+	width: 100%;
+	height: 0%;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0.8);
+	color: rgb(0, 0, 0);
+	font-family: MS PGothic;
+	border:16px double #000000FF;
+}
 
         
 
