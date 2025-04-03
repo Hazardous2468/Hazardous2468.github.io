@@ -12,13 +12,17 @@
 .main {
   margin: 24px;
   text-align: center;
-  background-color: #000000B9;
+  background-color: rgba(0, 0, 0, 0.8);
   color: #FFFF00FF;
   font-family: MS PGothic;
   font-size: medium;
-  
-  border:2px solid Black;
+  border:2px solid #000000FF;
 }
+.temp_wip_image_ {
+  background-color: rgba(0, 0, 0, 0);
+  color: #0;
+}
+
 
 #temp_wip_image {
     z-index: 1;
