@@ -72,7 +72,7 @@
 	padding:0px;
 	margin: 0px;
 	font-size: 0;
-	animation: scrolling-down 2s linear infinite;
+	animation: scrolling-down 4s linear infinite;
 	object-fit: contain;
 }
 .scrollingStripesInnerRight {
@@ -80,7 +80,7 @@
 	padding:0px;
 	margin: 0px;
 	font-size: 0;
-	animation: scrolling-down 2s linear infinite;
+	animation: scrolling-down 4s linear infinite;
 	object-fit: contain;
 }
 
@@ -104,7 +104,8 @@
 	transform: translate(-50%, -50%);
 	text-align: center;
 	background-color: rgba(255, 0, 0, 0.8);
-	color: rgb(0, 0, 0);
+	color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	font-family: MS PGothic;
 	border:16px double #000000FF;
 }
@@ -135,7 +136,10 @@ filter: drop-shadow(30px 10px 4px #000000FF);
 }
 
 #link-table {
-	width:100%
+	width:100%;
+	table-layout: fixed;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .tg{

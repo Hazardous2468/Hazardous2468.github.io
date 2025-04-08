@@ -1,0 +1,121 @@
+:root {
+    background-attachment: fixed;
+    background-color: #000000FF;
+    background-image: url(../assets/bg_temp.png);
+    background-position: center center;
+    background-repeat: cover no-repeat;
+    background-size: 50% auto;
+    font-family: MS PGothic;
+    font-size: 24px;
+}
+
+.main {
+  margin: 24px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #FFFF00FF;
+  font-family: MS PGothic;
+  font-size: medium;
+  border:2px solid #000000FF;
+}
+
+
+#link-table {
+	width:100%;
+	table-layout: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	font-family:Lucida Console
+}
+.tg{
+	font-size: 48px;
+	
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	font-family:Lucida Console
+	
+	font-weight:bold;
+	text-align:center;
+	vertical-align:top
+}
+
+
+#link-table_p {
+	width:100%;
+	table-layout: fixed;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tp{
+	color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	padding: 12px;
+	font-size: 48px;
+	border-style:solid;
+	border-width:2px;
+	border-color:black;
+	font-family:Lucida Console
+	font-weight:bold;
+	text-align:center;
+	vertical-align:top
+	display: inline-block;
+}
+
+.tp_img{
+	font-size: 48px;
+	border-style:solid;
+	border-width:2px;
+	border-color:black;
+	font-family:Lucida Console
+	font-weight:bold;
+	text-align:center;
+	vertical-align:top
+	display: inline-block;
+	
+	max-width:100%;
+	max-height: 250px;
+
+	
+}
+
+
+
+.main_div {	
+	z-index: 1;
+
+	color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0.8);
+	font-family: MS PGothic;
+	border:16px double #000000FF;
+}
+
+
+.main_placeholder {
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	vertical-align: middle;
+	z-index: 1;
+	padding: 8px;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0.8);
+	color: rgb(0, 0, 0);
+	font-family: MS PGothic;
+	border:16px double #000000FF;
+}
+
+        
+
+@font-face {
+    font-family: vcr;
+    src: url(../assets/fonts/vcr.ttf);
+}
